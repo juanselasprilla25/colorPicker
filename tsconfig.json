@@ -20,7 +20,14 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "baseUrl": "./src",
+  "paths": {
+      "@Components/*": ["./src/components/*"],
+      "@Interfaces/*": ["./src/interfaces/*"]
+  },
   "include": [
     "src"
-  ]
+  ],
+  "exclude": ["node_modules", "build", ".*env"],    
+    
 }
