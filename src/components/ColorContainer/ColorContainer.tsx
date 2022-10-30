@@ -16,7 +16,7 @@ export const ColorContainer = () => {
     useEffect(() => {
         let isCancelled = false
         axios.get(
-            `https://parseapi.back4app.com/classes/Color?limit=50`,
+            `https://parseapi.back4app.com/classes/Color?limit=100`,
             {
                 headers: {
                     'X-Parse-Application-Id': REACT_APP_ID, // This is the fake app's application id
