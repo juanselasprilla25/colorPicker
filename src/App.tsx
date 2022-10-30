@@ -1,4 +1,4 @@
-import { ColorContainer } from './components/ColorContainer';
+import { ColorContainer } from './components/ColorContainer/ColorContainer';
 
 function App() {
   return (
